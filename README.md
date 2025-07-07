@@ -58,3 +58,10 @@ malawi_api/
 ├── malawi_api/         # Django settings, urls, wsgi
 ├── manage.py
 
+
+📄 License
+MIT License — free for personal, academic, and non-commercial use.
+
+## Maintainer
+
+Tuntufye Mwanyongo

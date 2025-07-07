@@ -59,6 +59,9 @@ malawi_api/
 ├── manage.py
 ```
 
+## Data Source
+- Chatgpt
+
 ## License
 
 MIT License — free for personal, academic, and non-commercial use.

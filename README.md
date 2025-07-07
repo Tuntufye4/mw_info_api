@@ -57,7 +57,7 @@ malawi_api/
 ├── data/               # YAML data files
 ├── malawi_api/         # Django settings, urls, wsgi
 ├── manage.py
-
+```
 
 📄 License
 MIT License — free for personal, academic, and non-commercial use.

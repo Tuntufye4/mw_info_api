@@ -15,7 +15,7 @@ def home(request):
 urlpatterns = [
     path('', home),  # 👈 Root route
     path('admin/', admin.site.urls),
-    path('api/mwinfo/', include('mwinfo.urls')),
+    path('api/mwinfo/districts/', include('mwinfo.urls')),
     path('api/agriinfo/', include('agriinfo.urls')),
     path('api/currency/', include('currency.urls')),
 ]

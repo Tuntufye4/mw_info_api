@@ -1,13 +1,13 @@
-# 🌍 Malawi Info API
+# Malawi Info API
 
 A Django-based microservice API providing **informational access** to structured data about:
 - 🇲🇼 Malawi districts
-- 🌾 Agriculture (crops & fish)
-- 💱 Currency exchange rates
+- Agriculture (crops & fish)
+- Currency exchange rates
 
 ---
 
-## 📦 Features
+## Features
 
 - ✅ Query district-level data (e.g., population, climate, elevation)
 - ✅ Get agriculture details by Chichewa, English, or scientific name
@@ -17,9 +17,9 @@ A Django-based microservice API providing **informational access** to structured
 
 ---
 
-## 🧪 Example Endpoints
+## Example Endpoints
 
-### 🌍 Districts (`/api/mwinfo/`)
+### Districts (`/api/mwinfo/`)
 
 ```
 | Endpoint | Method | Description |
@@ -29,16 +29,16 @@ A Django-based microservice API providing **informational access** to structured
 ```
 ---
 
-### 🌾 Agriculture (`/api/agriinfo/`)
+### Agriculture (`/api/agriinfo/`)
 
 ```
 | Endpoint | Method | Description |
 |----------|--------|-------------|
-| `/agriinfo/query/?name=Chambo` | GET | Search crop or fish by name (any language) |
+| `/agriinfo/query/?name=Chambo` | GET | Search crop or fish by name (Chichewa/English/Scientific) |
 ```
 ---
 
-### 💱 Currency (`/api/currency/`)
+### Currency (`/api/currency/`)
 ```
 | Endpoint | Method | Description |
 |----------|--------|-------------|
@@ -47,7 +47,7 @@ A Django-based microservice API providing **informational access** to structured
 ```
 ---
 
-## 🗂 Project Structure
+## Project Structure
 
 ```bash
 malawi_api/
@@ -59,7 +59,8 @@ malawi_api/
 ├── manage.py
 ```
 
-📄 License
+## License
+
 MIT License — free for personal, academic, and non-commercial use.
 
 ## Maintainer

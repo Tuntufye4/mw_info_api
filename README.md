@@ -1,7 +1,7 @@
 # Malawi Info API
 
 A Django-based microservice API providing **informational access** to structured data about:
-- 🇲🇼 Malawi districts
+- Malawi districts
 - Agriculture (crops & fish)
 - Currency exchange rates
 
@@ -9,11 +9,11 @@ A Django-based microservice API providing **informational access** to structured
 
 ## Features
 
-- ✅ Query district-level data (e.g., population, climate, elevation)
-- ✅ Get agriculture details by Chichewa, English, or scientific name
-- ✅ Perform basic MWK-to-foreign currency conversions using static rates
-- ✅ YAML-based data source → SQLite → Django
-- ✅ Modular microservice design (per app)
+- Query district-level data (e.g., population, climate, elevation)
+- Get agriculture details by Chichewa, English, or scientific name
+- Perform basic MWK-to-foreign currency conversions using static rates
+- YAML-based data source → SQLite → Django
+- Modular microservice design (per app)
 
 ---
 

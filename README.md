@@ -45,19 +45,6 @@ A Django-based microservice API providing **informational access** to structured
 | `/currency/to_foreign/?amount=10000&currency=USD` | GET | Convert MWK → USD |
 | `/currency/to_mwk/?amount=100&currency=ZAR` | GET | Convert ZAR → MWK |
 ```
----
-
-## Project Structure
-
-```bash
-malawi_api/
-├── agriinfo/           # Agriculture & fish info
-├── currency/           # Currency conversion logic
-├── mwinfo/             # District details
-├── data/               # YAML data files
-├── malawi_api/         # Django settings, urls, wsgi
-├── manage.py
-```
 
 ## Data Source
 - Chatgpt

@@ -24,7 +24,7 @@ A Django-based microservice API providing **informational access** to structured
 ```
 | Endpoint | Method | Description |
 |---------|--------|-------------|
-| `[all districts](https://mw-info-api-5.onrender.com/api/mwinfo/districts/)` | GET | List all districts |
+| https://mw-info-api-5.onrender.com/api/mwinfo/districts/ | GET | List all districts |
 ```
 [all districts](https://mw-info-api-5.onrender.com/api/mwinfo/districts/)
 
@@ -44,7 +44,7 @@ A Django-based microservice API providing **informational access** to structured
 | https://mw-info-api-5.onrender.com/api/agriinfo/query/?name=Chimanga | GET | Search crop or fish by name (Chichewa/English/Scientific) |
 ```
 
-[query 'chimanga'](https://mw-info-api-5.onrender.com/api/agriinfo/query/?name=Chimanga/)
+[query 'chimanga'](https://mw-info-api-5.onrender.com/api/agriinfo/query/?name=Chimanga)
 ---
 
 ### Currency (`/api/currency/`)

@@ -21,11 +21,13 @@ A Django-based microservice API providing **informational access** to structured
 
 ### Districts (`/api/mwinfo/`)
 
+
+
 ```
 | Endpoint | Method | Description |
 |---------|--------|-------------|
-| `/mwinfo/districts/` | GET | List all districts |
-| `/mwinfo/districts/Lilongwe/` | GET | Full info for Lilongwe |
+| `[all districts](https://mw-info-api-5.onrender.com/api/mwinfo/districts/)` | GET | List all districts |
+| `[Lilongwe info](https://mw-info-api-5.onrender.com/api/mwinfo/districts/Lilongwe/`) | GET | Full info for Lilongwe |
 ```
 ---
 

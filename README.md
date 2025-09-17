@@ -21,16 +21,19 @@ A Django-based microservice API providing **informational access** to structured
 
 ### Districts (`/api/mwinfo/`)
 
-
-
 ```
 | Endpoint | Method | Description |
 |---------|--------|-------------|
 | `[all districts](https://mw-info-api-5.onrender.com/api/mwinfo/districts/)` | GET | List all districts |
-| `[Lilongwe info](https://mw-info-api-5.onrender.com/api/mwinfo/districts/Lilongwe/`) | GET | Full info for Lilongwe |
 ```
-
 [all districts](https://mw-info-api-5.onrender.com/api/mwinfo/districts/)
+
+```
+| Endpoint | Method | Description |
+|---------|--------|-------------|
+| https://mw-info-api-5.onrender.com/api/mwinfo/districts/Lilongwe/ | GET | Full info for Lilongwe |
+```
+[Lilongwe info](https://mw-info-api-5.onrender.com/api/mwinfo/districts/Lilongwe/)
 ---
 
 ### Agriculture (`/api/agriinfo/`)
@@ -38,8 +41,10 @@ A Django-based microservice API providing **informational access** to structured
 ```
 | Endpoint | Method | Description |
 |----------|--------|-------------|
-| `/agriinfo/query/?name=Chambo` | GET | Search crop or fish by name (Chichewa/English/Scientific) |
+| https://mw-info-api-5.onrender.com/api/agriinfo/query/?name=Chimanga | GET | Search crop or fish by name (Chichewa/English/Scientific) |
 ```
+
+[query 'chimanga'](https://mw-info-api-5.onrender.com/api/agriinfo/query/?name=Chimanga/)
 ---
 
 ### Currency (`/api/currency/`)

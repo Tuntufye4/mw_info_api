@@ -1,7 +1,7 @@
 # Malawi Info API
 
 A Django-based microservice API providing **informational access** to structured data about:
-- 🇲🇼 Malawi districts
+- Malawi districts
 - Agriculture (crops & fish)
 - Currency exchange rates
 
@@ -9,11 +9,11 @@ A Django-based microservice API providing **informational access** to structured
 
 ## Features
 
-- ✅ Query district-level data (e.g., population, climate, elevation)
-- ✅ Get agriculture details by Chichewa, English, or scientific name
-- ✅ Perform basic MWK-to-foreign currency conversions using static rates
-- ✅ YAML-based data source → SQLite → Django
-- ✅ Modular microservice design (per app)
+- Query district-level data (e.g., population, climate, elevation)
+- Get agriculture details by Chichewa, English, or scientific name
+- Perform basic MWK-to-foreign currency conversions using static rates
+- YAML-based data source → SQLite → Django
+- Modular microservice design (per app)
 
 ---
 
@@ -24,9 +24,16 @@ A Django-based microservice API providing **informational access** to structured
 ```
 | Endpoint | Method | Description |
 |---------|--------|-------------|
-| `/mwinfo/districts/` | GET | List all districts |
-| `/mwinfo/districts/Lilongwe/` | GET | Full info for Lilongwe |
+| https://mw-info-api-5.onrender.com/api/mwinfo/districts/ | GET | List all districts |
 ```
+[all districts](https://mw-info-api-5.onrender.com/api/mwinfo/districts/)
+
+```
+| Endpoint | Method | Description |
+|---------|--------|-------------|
+| https://mw-info-api-5.onrender.com/api/mwinfo/districts/Lilongwe/ | GET | Full info for Lilongwe |
+```
+[Lilongwe info](https://mw-info-api-5.onrender.com/api/mwinfo/districts/Lilongwe/)
 ---
 
 ### Agriculture (`/api/agriinfo/`)
@@ -34,8 +41,10 @@ A Django-based microservice API providing **informational access** to structured
 ```
 | Endpoint | Method | Description |
 |----------|--------|-------------|
-| `/agriinfo/query/?name=Chambo` | GET | Search crop or fish by name (Chichewa/English/Scientific) |
+| https://mw-info-api-5.onrender.com/api/agriinfo/query/?name=Chimanga | GET | Search crop or fish by name (Chichewa/English/Scientific) |
 ```
+
+[query 'chimanga'](https://mw-info-api-5.onrender.com/api/agriinfo/query/?name=Chimanga)
 ---
 
 ### Currency (`/api/currency/`)
@@ -44,19 +53,6 @@ A Django-based microservice API providing **informational access** to structured
 |----------|--------|-------------|
 | `/currency/to_foreign/?amount=10000&currency=USD` | GET | Convert MWK → USD |
 | `/currency/to_mwk/?amount=100&currency=ZAR` | GET | Convert ZAR → MWK |
-```
----
-
-## Project Structure
-
-```bash
-malawi_api/
-├── agriinfo/           # Agriculture & fish info
-├── currency/           # Currency conversion logic
-├── mwinfo/             # District details
-├── data/               # YAML data files
-├── malawi_api/         # Django settings, urls, wsgi
-├── manage.py
 ```
 
 ## Data Source

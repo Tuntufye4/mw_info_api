@@ -12,4 +12,5 @@ class District(models.Model):
     elevation_m = models.IntegerField()
     climate = models.CharField(max_length=100) 
     timezone = models.CharField(max_length=50)
-
+    languages = models.CharField(max_length=50, null=True)   
+            

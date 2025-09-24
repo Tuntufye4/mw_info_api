@@ -1,9 +1,8 @@
 districts:
   - district: Balaka
-    region: Southern
+    region: Southern   
     latitude: -14.9200
     longitude: 34.9667
-    capital: Balaka
     lakes: null
     mountains: null
     population_2023: 310000
@@ -11,9 +10,7 @@ districts:
     population_density: 108
     elevation_m: 600
     year_established: 1998
-    languages:
-      - Chichewa
-      - Yao
+    languages: [Chichewa, Yao]
     climate: Tropical
     timezone: CAT (UTC+2)
 
@@ -21,7 +18,6 @@ districts:
     region: Southern
     latitude: -15.7861
     longitude: 35.0085
-    capital: Blantyre
     lakes: null
     mountains: Soche, Ndirande Hills
     population_2023: 1200000
@@ -29,9 +25,7 @@ districts:
     population_density: 596
     elevation_m: 1030
     year_established: 1907
-    languages:
-      - Chichewa
-      - Lomwe
+    languages: [Chichewa, Lomwe]
     climate: Tropical Savanna
     timezone: CAT (UTC+2)
 
@@ -39,7 +33,6 @@ districts:
     region: Southern
     latitude: -16.0426
     longitude: 34.7928
-    capital: Chikwawa
     lakes: null
     mountains: null
     population_2023: 430000
@@ -47,9 +40,7 @@ districts:
     population_density: 95
     elevation_m: 300
     year_established: 1910
-    languages:
-      - Chichewa
-      - Sena
+    languages: [Chichewa, Sena]
     climate: Tropical
     timezone: CAT (UTC+2)
 
@@ -57,7 +48,6 @@ districts:
     region: Southern
     latitude: -15.6833
     longitude: 35.0667
-    capital: Chiradzulu
     lakes: null
     mountains: null
     population_2023: 300000
@@ -65,17 +55,15 @@ districts:
     population_density: 391
     elevation_m: 1000
     year_established: 1910
-    languages:
-      - Chichewa
-      - Lomwe
+    languages: [Chichewa, Lomwe]
     climate: Tropical
     timezone: CAT (UTC+2)
+  
 
   - district: Chitipa
     region: Northern
     latitude: -9.6833
     longitude: 33.2667
-    capital: Chitipa
     lakes: null
     mountains: Viphya Plateau
     population_2023: 250000
@@ -83,9 +71,7 @@ districts:
     population_density: 57
     elevation_m: 1500
     year_established: 1907
-    languages:
-      - Tumbuka
-      - Ngonde
+    languages: [Tumbuka, Ngonde]
     climate: Highland Tropical
     timezone: CAT (UTC+2)
 
@@ -93,7 +79,6 @@ districts:
     region: Central
     latitude: -14.3667
     longitude: 34.3333
-    capital: Dedza
     lakes: null
     mountains: Dedza Mountain
     population_2023: 800000
@@ -101,8 +86,7 @@ districts:
     population_density: 221
     elevation_m: 1600
     year_established: 1907
-    languages:
-      - Chichewa
+    languages: [Chichewa]
     climate: Cool Highlands
     timezone: CAT (UTC+2)
 
@@ -110,7 +94,6 @@ districts:
     region: Central
     latitude: -13.0167
     longitude: 33.9167
-    capital: Dowa
     lakes: null
     mountains: null
     population_2023: 400000
@@ -118,9 +101,7 @@ districts:
     population_density: 127
     elevation_m: 1100
     year_established: 1998
-    languages:
-      - Chichewa
-      - Tumbuka
+    languages: [Chichewa, Tumbuka]
     climate: Tropical
     timezone: CAT (UTC+2)
 
@@ -128,18 +109,14 @@ districts:
     region: Northern
     latitude: -9.9333
     longitude: 33.9333
-    capital: Karonga
-    lakes:
-      - Lake Malawi
+    lakes: [Lake Malawi]
     mountains: Nyika Highlands
     population_2023: 400000
     area_km2: 3355
     population_density: 119
     elevation_m: 520
     year_established: 1940
-    languages:
-      - Tumbuka
-      - Nyakyusa
+    languages: [Tumbuka, Nyakyusa]
     climate: Tropical Wet
     timezone: CAT (UTC+2)
 
@@ -147,7 +124,6 @@ districts:
     region: Central
     latitude: -13.0333
     longitude: 33.4667
-    capital: Kasungu
     lakes: null
     mountains: null
     population_2023: 900000
@@ -155,9 +131,7 @@ districts:
     population_density: 114
     elevation_m: 1300
     year_established: 1907
-    languages:
-      - Chichewa
-      - Tumbuka
+    languages: [Chichewa, Tumbuka]
     climate: Tropical
     timezone: CAT (UTC+2)
 
@@ -165,7 +139,6 @@ districts:
     region: Central
     latitude: -13.9833
     longitude: 33.7741
-    capital: Lilongwe
     lakes: null
     mountains: Dzalanyama Hills
     population_2023: 1400000
@@ -173,8 +146,7 @@ districts:
     population_density: 227
     elevation_m: 1050
     year_established: 1907
-    languages:
-      - Chichewa
+    languages: [Chichewa]
     climate: Subtropical
     timezone: CAT (UTC+2)
 
@@ -182,7 +154,6 @@ districts:
     region: Southern
     latitude: -14.9000
     longitude: 35.3000
-    capital: Machinga
     lakes: null
     mountains: null
     population_2023: 400000
@@ -190,29 +161,23 @@ districts:
     population_density: 110
     elevation_m: 600
     year_established: 1998
-    languages:
-      - Chichewa
-      - Yao
+    languages: [Chichewa, Yao]
     climate: Tropical
     timezone: CAT (UTC+2)
+    
 
   - district: Mangochi
     region: Southern
     latitude: -14.4763
     longitude: 35.2620
-    capital: Mangochi
-    lakes:
-      - Malawi
-      - Malombe
+    lakes: [Malawi, Malombe]
     mountains: Mangochi Hills
     population_2023: 1200000
     area_km2: 6273
     population_density: 191
     elevation_m: 480
     year_established: 1909
-    languages:
-      - Yao
-      - Chichewa
+    languages: [Yao, Chichewa]
     climate: Tropical Dry
     timezone: CAT (UTC+2)
 
@@ -220,7 +185,6 @@ districts:
     region: Central
     latitude: -13.8000
     longitude: 33.5000
-    capital: Mchinji
     lakes: null
     mountains: null
     population_2023: 530000
@@ -228,9 +192,7 @@ districts:
     population_density: 157
     elevation_m: 1100
     year_established: 1984
-    languages:
-      - Chichewa
-      - Tumbuka
+    languages: [Chichewa, Tumbuka]
     climate: Tropical
     timezone: CAT (UTC+2)
 
@@ -238,7 +200,6 @@ districts:
     region: Southern
     latitude: -16.0333
     longitude: 35.6667
-    capital: Mulanje
     lakes: null
     mountains: Mulanje Mountain
     population_2023: 600000
@@ -246,9 +207,7 @@ districts:
     population_density: 292
     elevation_m: 1300
     year_established: 1909
-    languages:
-      - Lomwe
-      - Chichewa
+    languages: [Lomwe, Chichewa]
     climate: Tropical Wet
     timezone: CAT (UTC+2)
 
@@ -256,7 +215,6 @@ districts:
     region: Southern
     latitude: -15.9500
     longitude: 34.9333
-    capital: Mwanza
     lakes: null
     mountains: null
     population_2023: 260000
@@ -264,9 +222,7 @@ districts:
     population_density: 197
     elevation_m: 600
     year_established: 1998
-    languages:
-      - Chichewa
-      - Lomwe
+    languages: [Chichewa, Lomwe]
     climate: Tropical
     timezone: CAT (UTC+2)
 
@@ -274,7 +230,6 @@ districts:
     region: Northern
     latitude: -11.9000
     longitude: 33.6000
-    capital: Mzuzu
     lakes: null
     mountains: Vipya Plateau
     population_2023: 900000
@@ -282,9 +237,7 @@ districts:
     population_density: 86
     elevation_m: 1300
     year_established: 1907
-    languages:
-      - Tumbuka
-      - Ngoni
+    languages: [Tumbuka, Ngoni]
     climate: Cool Highlands
     timezone: CAT (UTC+2)
 
@@ -292,18 +245,14 @@ districts:
     region: Northern
     latitude: -11.5833
     longitude: 34.3333
-    capital: Nkhata Bay
-    lakes:
-      - Lake Malawi
+    lakes: [Lake Malawi]
     mountains: null
     population_2023: 240000
     area_km2: 1779
     population_density: 135
     elevation_m: 500
     year_established: 1910
-    languages:
-      - Tumbuka
-      - Tonga
+    languages: [Tumbuka, Tonga]
     climate: Tropical
     timezone: CAT (UTC+2)
 
@@ -311,18 +260,14 @@ districts:
     region: Central
     latitude: -12.9167
     longitude: 34.3000
-    capital: Nkhotakota
-    lakes:
-      - Lake Malawi
+    lakes: [Lake Malawi]
     mountains: Chipata Mountain
     population_2023: 400000
     area_km2: 4259
     population_density: 94
     elevation_m: 480
     year_established: 1966
-    languages:
-      - Chewa
-      - Tonga
+    languages: [Chewa, Tonga]
     climate: Tropical Dry
     timezone: CAT (UTC+2)
 
@@ -330,7 +275,6 @@ districts:
     region: Southern
     latitude: -16.9167
     longitude: 35.2667
-    capital: Nsanje
     lakes: null
     mountains: null
     population_2023: 260000
@@ -338,9 +282,7 @@ districts:
     population_density: 188
     elevation_m: 80
     year_established: 1910
-    languages:
-      - Sena
-      - Chichewa
+    languages: [Sena, Chichewa]
     climate: Tropical
     timezone: CAT (UTC+2)
 
@@ -348,7 +290,6 @@ districts:
     region: Central
     latitude: -14.1833
     longitude: 34.6167
-    capital: Ntcheu
     lakes: null
     mountains: null
     population_2023: 470000
@@ -356,8 +297,7 @@ districts:
     population_density: 113
     elevation_m: 1100
     year_established: 1907
-    languages:
-      - Chichewa
+    languages: [Chichewa]
     climate: Tropical
     timezone: CAT (UTC+2)
 
@@ -365,7 +305,6 @@ districts:
     region: Central
     latitude: -13.0833
     longitude: 34.0000
-    capital: Ntchisi
     lakes: null
     mountains: null
     population_2023: 300000
@@ -373,8 +312,7 @@ districts:
     population_density: 201
     elevation_m: 1200
     year_established: 1980
-    languages:
-      - Chichewa
+    languages: [Chichewa]
     climate: Tropical
     timezone: CAT (UTC+2)
 
@@ -382,7 +320,6 @@ districts:
     region: Southern
     latitude: -15.7500
     longitude: 35.7000
-    capital: Phalombe
     lakes: null
     mountains: null
     population_2023: 350000
@@ -390,9 +327,7 @@ districts:
     population_density: 221
     elevation_m: 700
     year_established: 1965
-    languages:
-      - Lomwe
-      - Chichewa
+    languages: [Lomwe, Chichewa]
     climate: Tropical
     timezone: CAT (UTC+2)
 
@@ -400,7 +335,6 @@ districts:
     region: Northern
     latitude: -11.4167
     longitude: 33.9500
-    capital: Rumphi
     lakes: null
     mountains: Viphya Plateau
     population_2023: 220000
@@ -408,27 +342,23 @@ districts:
     population_density: 47
     elevation_m: 1200
     year_established: 1907
-    languages:
-      - Tumbuka
-      - Ngoni
+    languages: [Tumbuka, Ngoni]
     climate: Highland Tropical
     timezone: CAT (UTC+2)
+    
 
   - district: Salima
     region: Central
     latitude: -13.7833
     longitude: 34.4333
-    capital: Salima
-    lakes:
-      - Lake Malawi
+    lakes: [Lake Malawi]
     mountains: null
     population_2023: 500000
     area_km2: 2196
     population_density: 228
     elevation_m: 510
     year_established: 1907
-    languages:
-      - Chichewa
+    languages: [Chichewa]
     climate: Tropical Dry
     timezone: CAT (UTC+2)
 
@@ -436,7 +366,6 @@ districts:
     region: Southern
     latitude: -16.0833
     longitude: 35.1667
-    capital: Thyolo
     lakes: null
     mountains: Mulanje Mountain (partly)
     population_2023: 500000
@@ -444,9 +373,7 @@ districts:
     population_density: 333
     elevation_m: 1100
     year_established: 1907
-    languages:
-      - Lomwe
-      - Chichewa
+    languages: [Lomwe, Chichewa]
     climate: Tropical Wet
     timezone: CAT (UTC+2)
 
@@ -454,17 +381,15 @@ districts:
     region: Southern
     latitude: -15.3833
     longitude: 35.3167
-    capital: Zomba
-    lakes:
-      - Lake Chilwa
+    lakes: [Lake Chilwa]
     mountains: Zomba Plateau
     population_2023: 700000
     area_km2: 2580
     population_density: 271
     elevation_m: 900
     year_established: 1907
-    languages:
-      - Lomwe
-      - Chichewa
+    languages: [Lomwe, Chichewa]
     climate: Tropical Wet
     timezone: CAT (UTC+2)
+    
+    

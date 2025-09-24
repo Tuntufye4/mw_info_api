@@ -22,7 +22,8 @@ class DistrictDetail(APIView):
                 "density": district.density,
                 "elevation_m": district.elevation_m,
                 "climate": district.climate,
-                "timezone": district.timezone
+                "timezone": district.timezone,
+                "languages": district.languages   
             }
             return Response(data)
         except District.DoesNotExist:

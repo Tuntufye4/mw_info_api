@@ -4,13 +4,13 @@ from demographics.models import Demographics
 
 class DemographicsList(APIView):   
     def get(self, request):   
-        demographics = Demographics.objects.all().values_list("name", flat=True)
+        demographics = Demographics.objects.all().values_list("district", flat=True)
         return Response(list(demographics))
 
 class DemographicsDetail(APIView):
-    def get(self, request, name):    
+    def get(self, request, district):    
         try:
-            demodetails = Demographics.objects.get(name__iexact=name)
+            demodetails = Demographics.objects.get(name__iexact=district)
             data = {
                 "district": demodetails.district,
                 "region": demodetails.region,

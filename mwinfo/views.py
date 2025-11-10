@@ -7,7 +7,7 @@ class DistrictList(APIView):
         districts = District.objects.all().values_list("name", flat=True)
         return Response(list(districts))
 
-class DistrictDetail(APIView):
+class DistrictDetail(APIView):   
     def get(self, request, name):
         try:
             district = District.objects.get(name__iexact=name)

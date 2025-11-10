@@ -4,3 +4,4 @@ from .views import AgriQuery
 urlpatterns = [
     path("agriquery/", AgriQuery.as_view()),
 ]
+  

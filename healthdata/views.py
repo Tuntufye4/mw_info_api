@@ -8,11 +8,11 @@ class HealthdataList(APIView):
         return Response(list(healthdata))
 
 class HealthDetail(APIView):  
-    def get(self, request, district):    
+    def get(self, request, name):    
         try:
-            healthdetails = Healthdata.objects.get(name__iexact=district)
+            healthdetails = Healthdata.objects.get(name__iexact=name)
             data = {
-                "district":healthdetails.district,
+                "name":healthdetails.name,
                 "region": healthdetails.region,
                 "health_centers": healthdetails.health_centers,
                 "hospitals": healthdetails.hospitals,  

@@ -6,6 +6,7 @@ class Healthdata(models.Model):
     health_centers = models.CharField(max_length=100)
     hospitals = models.CharField(max_length=100)     
     dispensaries = models.CharField(max_length=100)
+    name = models.CharField(max_length=100, blank=True, null=True)
     
 
     

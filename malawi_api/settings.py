@@ -32,7 +32,7 @@ ALLOWED_HOSTS = [
 ]
 
 # Application definition
-
+  
 INSTALLED_APPS = [
     'corsheaders',  
     'django.contrib.admin',
@@ -45,6 +45,8 @@ INSTALLED_APPS = [
     'mwinfo',
     'agriinfo',
     'currency',
+    'demographics',
+    'healthdata',     
 ]
 
 MIDDLEWARE = [

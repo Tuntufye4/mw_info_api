@@ -1,6 +1,6 @@
 from django.urls import path
-from .views import CropFishQuery
+from .views import AgriQuery
 
 urlpatterns = [
-    path("query/", CropFishQuery.as_view()),
+    path("agriquery/", AgriQuery.as_view()),
 ]

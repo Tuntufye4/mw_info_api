@@ -9,6 +9,8 @@ def home(request):
             "/api/mwinfo/",
             "/api/agriinfo/",
             "/api/currency/",
+            "/api/demographics/",  
+            "/api/healthdata/",
         ]
     })
 
@@ -18,4 +20,7 @@ urlpatterns = [
     path('api/mwinfo/', include('mwinfo.urls')),
     path('api/agriinfo/', include('agriinfo.urls')),
     path('api/currency/', include('currency.urls')),
+    path('api/demographics/', include('demographics.urls')),
+    path('api/healthdata/', include('healthdata.urls')),     
 ]
+   

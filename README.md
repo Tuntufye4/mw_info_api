@@ -61,6 +61,7 @@ A Django-based microservice API providing **informational access** to structured
 
 
 [query 'chimanga'](https://mw-info-api-5.onrender.com/api/agriinfo/query/?name=Chimanga)
+
 ---
 
 ### Currency (`/api/currency/`)
@@ -75,9 +76,13 @@ A Django-based microservice API providing **informational access** to structured
 ## Data Source
 - Chatgpt
 
+---
+
 ## License
 
 MIT License — free for personal, academic, and non-commercial use.
+
+---
 
 ## Maintainer
 

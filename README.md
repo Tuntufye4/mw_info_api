@@ -66,6 +66,14 @@ A Django-based microservice API providing **informational access** to structured
 
 [query 'chimanga'](https://mw-info-api-5.onrender.com/api/agriinfo/query/?name=Chimanga)
 
+### Details
+
+| Field | Data type | Description |
+|-------|-----------|-------------|
+| Chichewa  | String    | Crop name in chichewa |
+| English | String   | Crop name in english   |
+| Scientific | String | Scientific crop name |
+
 ---
 
 ### Currency (`/api/currency/`)
@@ -74,6 +82,13 @@ A Django-based microservice API providing **informational access** to structured
 |----------|--------|-------------|
 | `/currency/to_foreign/?amount=10000&currency=USD` | GET | Convert MWK → USD |
 | `/currency/to_mwk/?amount=100&currency=ZAR` | GET | Convert ZAR → MWK |
+
+
+| Field | Data type | Description |
+|-------|-----------|-------------|
+| code  |    |  |
+| rate_to_mw |   |    |
+
 
 ---
 

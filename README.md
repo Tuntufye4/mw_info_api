@@ -28,15 +28,6 @@ A Django-based microservice API providing **informational access** to structured
 |---------|--------|-------------|
 | https://mw-info-api-5.onrender.com/api/mwinfo/districts/ | GET | List all districts |
 
-### Details
-
-| Field | Data type | Description |
-|-------|-----------|-------------|
-| Name  | String    | District names |
-|-------|-----------|------------|
-| Region | String   | Regions   |
-
-
 [all districts](https://mw-info-api-5.onrender.com/api/mwinfo/districts/)
 
 
@@ -45,6 +36,20 @@ A Django-based microservice API providing **informational access** to structured
 | https://mw-info-api-5.onrender.com/api/mwinfo/districts/Lilongwe/ | GET | Full info for Lilongwe |
 
 [Lilongwe info](https://mw-info-api-5.onrender.com/api/mwinfo/districts/Lilongwe/)
+
+
+### Details
+
+| Field | Data type | Description |
+|-------|-----------|-------------|
+| Name  | String    | District names |
+| Region | String   | Regions   |
+| Latitude | Decimal | Latitudes |
+| Longitude | Decimal | Latitudes |
+| Population_2023 | Int | District population in 2023 |
+| Area_km | Decimal | District area in square kilometres |
+| Density | Decimal | Density |
+
 ---
 
 ### Agriculture (`/api/agriinfo/`)
@@ -65,6 +70,7 @@ A Django-based microservice API providing **informational access** to structured
 | `/currency/to_foreign/?amount=10000&currency=USD` | GET | Convert MWK → USD |
 | `/currency/to_mwk/?amount=100&currency=ZAR` | GET | Convert ZAR → MWK |
 
+---
 
 ## Data Source
 - Chatgpt

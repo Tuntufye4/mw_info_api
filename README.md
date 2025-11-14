@@ -83,6 +83,7 @@ A Django-based microservice API providing **informational access** to structured
 | `/currency/to_foreign/?amount=10000&currency=USD` | GET | Convert MWK → USD |
 | `/currency/to_mwk/?amount=100&currency=ZAR` | GET | Convert ZAR → MWK |
 
+### Details
 
 | Field | Data type | Description |
 |-------|-----------|-------------|

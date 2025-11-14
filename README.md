@@ -2,7 +2,7 @@
 
 A Django-based microservice API providing **informational access** to structured data about:
 - Malawi districts
-- Agriculture (crops & fish)
+- Agriculture (crops, livestock & fish)
 - Currency exchange rates
 
 ---

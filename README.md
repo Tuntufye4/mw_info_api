@@ -28,34 +28,43 @@ A Django-based microservice API providing **informational access** to structured
 |---------|--------|-------------|
 | https://mw-info-api-5.onrender.com/api/mwinfo/districts/ | GET | List all districts |
 
+### Details
+
+| Field | Data type | Description |
+|-------|-----------|-------------|
+| Name  | String    | District names |
+|-------|-----------|------------|
+| Region | String   | Regions   |
+
+
 [all districts](https://mw-info-api-5.onrender.com/api/mwinfo/districts/)
 
-```
+
 | Endpoint | Method | Description |
 |---------|--------|-------------|
 | https://mw-info-api-5.onrender.com/api/mwinfo/districts/Lilongwe/ | GET | Full info for Lilongwe |
-```
+
 [Lilongwe info](https://mw-info-api-5.onrender.com/api/mwinfo/districts/Lilongwe/)
 ---
 
 ### Agriculture (`/api/agriinfo/`)
 
-```
+
 | Endpoint | Method | Description |
 |----------|--------|-------------|
 | https://mw-info-api-5.onrender.com/api/agriinfo/query/?name=Chimanga | GET | Search crop or fish by name (Chichewa/English/Scientific) |
-```
+
 
 [query 'chimanga'](https://mw-info-api-5.onrender.com/api/agriinfo/query/?name=Chimanga)
 ---
 
 ### Currency (`/api/currency/`)
-```
+
 | Endpoint | Method | Description |
 |----------|--------|-------------|
 | `/currency/to_foreign/?amount=10000&currency=USD` | GET | Convert MWK → USD |
 | `/currency/to_mwk/?amount=100&currency=ZAR` | GET | Convert ZAR → MWK |
-```
+
 
 ## Data Source
 - Chatgpt

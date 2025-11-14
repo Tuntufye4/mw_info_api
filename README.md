@@ -23,11 +23,11 @@ A Django-based microservice API providing **informational access** to structured
 
 ### Districts (`/api/mwinfo/`)
 
-```
+
 | Endpoint | Method | Description |
 |---------|--------|-------------|
 | https://mw-info-api-5.onrender.com/api/mwinfo/districts/ | GET | List all districts |
-```
+
 [all districts](https://mw-info-api-5.onrender.com/api/mwinfo/districts/)
 
 ```

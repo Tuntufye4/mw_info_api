@@ -49,6 +49,10 @@ A Django-based microservice API providing **informational access** to structured
 | Population_2023 | Int | District population in 2023 |
 | Area_km | Decimal | District area in square kilometres |
 | Density | Decimal | Density |
+| Elevation | Decimal | Elevation | 
+| Climate | String | Climate type in a district |
+| Timezone | String | District timezone |
+| Languages | String | Languages in a district |
 
 ---
 
